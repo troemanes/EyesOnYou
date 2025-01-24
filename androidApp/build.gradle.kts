@@ -50,6 +50,8 @@ dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.core.ktx)
+    implementation(libs.androidx.core.ktx)
     debugImplementation(libs.compose.ui.tooling)
     implementation (libs.google.services) // Firebase Plugin
 
@@ -62,7 +64,9 @@ dependencies {
        // ML Kit Face Detection
      //  implementation(libs.face.detection)
        // CameraX
-       implementation(libs.androidx.camera.camera2)
+
+
+    implementation(libs.androidx.camera.camera2)
        implementation(libs.androidx.camera.lifecycle)
        implementation(libs.camera.view)
     //implementation ("org.webrtc:google-webrtc:1.0.32006")
